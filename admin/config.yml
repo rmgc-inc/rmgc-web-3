@@ -1,0 +1,167 @@
+backend:
+  name: github
+  repo: rmgc-inc/rmgc-web-3
+  branch: main
+  base_url: https://rm-general.peterlevin08.workers.dev
+  auth_endpoint: /auth
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: website
+    label: Website content
+    files:
+      - name: site
+        label: Website copy, contact details and gallery
+        file: content/site.json
+        format: json
+        fields:
+          - { label: Content schema version, name: contentVersion, widget: hidden, default: 3 }
+          - label: Business information
+            name: business
+            widget: object
+            fields:
+              - { label: Business name, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image, hint: "Upload the circular logo used in the header and footer." }
+              - { label: Brand tagline, name: tagline, widget: string, hint: "Shown under the business name in the header and footer." }
+              - { label: Phone number shown on the website, name: phoneDisplay, widget: string }
+              - { label: Phone number for call links, name: phoneTel, widget: string, hint: "Include country code, e.g. +16478658009" }
+              - { label: Top bar hours, name: topbarHours, widget: string }
+              - { label: Monday–Saturday hours, name: weekdayHours, widget: string }
+              - { label: Sunday hours, name: sundayHours, widget: string }
+              - { label: Footer hours, name: footerHours, widget: string }
+              - { label: Service area, name: serviceArea, widget: text }
+              - { label: Liability insurance statement, name: liabilityInsurance, widget: string }
+              - { label: WSIB insurance statement, name: wsibInsurance, widget: string }
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Heading before italic text, name: title, widget: string }
+              - { label: Italic heading text, name: emphasis, widget: string }
+              - { label: Introductory paragraph, name: lead, widget: text }
+              - { label: Background image, name: backgroundImage, widget: image, hint: "Displayed behind the hero section. Upload a new image or paste an image URL." }
+          - label: Services section
+            name: servicesSection
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Heading before italic text, name: title, widget: string }
+              - { label: Italic heading text, name: emphasis, widget: string }
+              - { label: Introductory paragraph, name: lead, widget: text }
+          - label: Service cards
+            name: services
+            widget: list
+            min: 2
+            max: 2
+            fields:
+              - { label: Category label, name: category, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Highlights
+                name: bullets
+                widget: list
+                field: { label: Highlight, name: highlight, widget: string }
+              - { label: Service image, name: image, widget: image }
+              - { label: Image description for accessibility, name: imageAlt, widget: string }
+              - { label: Estimate link label, name: buttonLabel, widget: string }
+          - label: Project gallery section
+            name: projectsSection
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Heading before italic text, name: title, widget: string }
+              - { label: Italic heading text, name: emphasis, widget: string }
+              - { label: Introductory paragraph, name: lead, widget: text }
+          - label: Project gallery
+            name: projects
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - label: Project type
+                name: category
+                widget: select
+                options:
+                  - { label: Residential, value: residential }
+                  - { label: Commercial, value: commercial }
+              - { label: Project title, name: title, widget: string }
+              - { label: Project location and detail, name: location, widget: string }
+              - { label: Project photo, name: image, widget: image, required: false }
+              - { label: Photo description for accessibility, name: imageAlt, widget: string, required: false }
+              - label: Additional gallery photos
+                name: gallery
+                widget: list
+                required: false
+                max: 30
+                summary: "{{fields.caption}}"
+                fields:
+                  - { label: Photo, name: image, widget: image, required: false }
+                  - { label: Photo description for accessibility, name: imageAlt, widget: string, required: false }
+                  - { label: Caption, name: caption, widget: string, required: false }
+          - label: Frequently asked questions
+            name: faq
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Heading before italic text, name: title, widget: string }
+              - { label: Italic heading text, name: emphasis, widget: string }
+              - label: Questions
+                name: items
+                widget: list
+                fields:
+                  - { label: Question, name: question, widget: string }
+                  - { label: Answer, name: answer, widget: text }
+          - label: "Who you're hiring"
+            name: about
+            widget: object
+            required: false
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string, default: "Who you're hiring" }
+              - { label: Heading, name: title, widget: string, default: "A contractor who shows up," }
+              - { label: Italic heading text, name: emphasis, widget: string, default: "and finishes", required: false }
+              - { label: Section photo, name: image, widget: image, required: false, hint: "Upload a replacement photo. Leave blank to keep the existing craftsman photo." }
+              - { label: Photo description, name: imageAlt, widget: string, required: false, default: "Craftsman working at a miter saw on a renovation site" }
+              - label: Paragraphs
+                name: paragraphs
+                widget: list
+                field: { label: Paragraph, name: text, widget: text }
+                default:
+                  - "RM General Contractor Inc is a North York–based construction company led by Roger, working across Toronto and the surrounding GTA. We take on residential renovations and commercial build-outs — and the responsibility that comes with them."
+                  - "That means arriving when we say we will, protecting your floors and furniture before the first tool comes out, flagging problems we find behind the walls instead of covering them up, and leaving the space cleaner than we found it. Most of our work comes from referrals and repeat clients — the only endorsement in this trade that really counts."
+                  - "We carry $5,000,000 in liability insurance and are WSIB insured — your property and everyone on your site is properly covered, on every job, without exception."
+              - label: Credentials
+                name: credentials
+                widget: list
+                fields:
+                  - { label: Bold text, name: title, widget: string }
+                  - { label: Supporting text, name: text, widget: string }
+                default:
+                  - { title: "$5,000,000", text: "liability insurance" }
+                  - { title: "WSIB", text: "insured & in good standing" }
+                  - { title: "Written estimates", text: "& workmanship warranty" }
+                  - { title: "Licensed trades", text: "— plumbing, electrical & HVAC" }
+              - { label: Estimate button label, name: buttonLabel, widget: string, default: "Request a free estimate" }
+          - label: Contact section
+            name: contact
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Heading before italic text, name: title, widget: string }
+              - { label: Italic heading text, name: emphasis, widget: string }
+              - { label: Introductory paragraph, name: lead, widget: text }
+              - label: Social contacts
+                name: social
+                widget: object
+                fields:
+                  - { label: Xiaohongshu URL, name: xiaohongshuUrl, widget: string, hint: "Paste the full Xiaohongshu profile or post link." }
+                  - { label: Xiaohongshu supporting text, name: xiaohongshuLabel, widget: string }
+                  - { label: Instagram URL, name: instagramUrl, widget: string, required: false, hint: "Leave blank to keep the Instagram card inactive." }
+                  - { label: Instagram supporting text, name: instagramLabel, widget: string }
+                  - { label: WeChat QR code, name: wechatQr, widget: image, hint: "Upload a replacement QR code image." }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Footer description, name: blurb, widget: text }

@@ -1,0 +1,444 @@
+{
+  "about": {
+    "buttonLabel": "Request a free estimate",
+    "credentials": [
+      {
+        "text": "liability insurance",
+        "title": "$5,000,000"
+      },
+      {
+        "text": "insured & in good standing",
+        "title": "WSIB"
+      },
+      {
+        "text": "& workmanship warranty",
+        "title": "Written estimates"
+      },
+      {
+        "text": "— plumbing, electrical & HVAC",
+        "title": "Licensed trades"
+      }
+    ],
+    "emphasis": "and finishes",
+    "eyebrow": "Who you're hiring",
+    "image": "/assets/uploads/about-craftsman.jpg",
+    "imageAlt": "Craftsman working at a miter saw on a renovation site",
+    "paragraphs": [
+      "RMGC Construction Inc is a North York–based construction company led by Roger, working across Toronto and the surrounding GTA. We take on residential renovations and commercial build-outs — and the responsibility that comes with them.",
+      "That means arriving when we say we will, protecting your floors and furniture before the first tool comes out, flagging problems we find behind the walls instead of covering them up, and leaving the space cleaner than we found it. Most of our work comes from referrals and repeat clients — the only endorsement in this trade that really counts.",
+      "We carry $5,000,000 in liability insurance and are WSIB insured — your property and everyone on your site is properly covered, on every job, without exception."
+    ],
+    "title": "A contractor who shows up,"
+  },
+  "business": {
+    "footerHours": "Mon – Sat · 9 AM – 7 PM",
+    "liabilityInsurance": "$5,000,000 general liability insurance",
+    "logo": "/assets/uploads/rm-logo.png",
+    "name": "RMGC Construction Inc.",
+    "phoneDisplay": "(647) 865-8009",
+    "phoneTel": "+16478658009",
+    "serviceArea": "North York, Toronto, Vaughan, Richmond Hill, Markham, Mississauga and the surrounding GTA.",
+    "sundayHours": "Closed",
+    "tagline": "Craft • Build • Renovate",
+    "topbarHours": "Mon – Sat, 9 AM – 7 PM",
+    "weekdayHours": "9 AM – 7 PM",
+    "wsibInsurance": "WSIB insured & in good standing"
+  },
+  "contact": {
+    "emphasis": "your project",
+    "eyebrow": "Get in touch",
+    "lead": "Call directly — we'll arrange a site visit and get you a clear written estimate.",
+    "social": {
+      "instagramLabel": "Profile link coming soon",
+      "instagramUrl": "",
+      "wechatQr": "/assets/uploads/wechat-qr.png",
+      "xiaohongshuLabel": "Follow our updates",
+      "xiaohongshuUrl": "https://xhslink.cn/o/5pugXODMLKe"
+    },
+    "title": "Tell us about"
+  },
+  "contentVersion": 3,
+  "faq": {
+    "emphasis": "before we begin",
+    "eyebrow": "Common questions",
+    "items": [
+      {
+        "answer": "We handle home renovations, kitchens and bathrooms, basement finishing, condo renovations, and commercial build-outs including office and retail fit-outs.",
+        "question": "What types of projects do you take on?"
+      },
+      {
+        "answer": "Our team serves North York, Toronto, Vaughan, Richmond Hill, Markham, Mississauga, and communities throughout the surrounding GTA.",
+        "question": "Where do you provide service?"
+      },
+      {
+        "answer": "Call us to talk through your project. We’ll arrange a site visit, understand the scope, and provide a clear written estimate. Estimates are always free.",
+        "question": "How does the estimate process work?"
+      },
+      {
+        "answer": "Yes. RMGC Construction Inc. carries $5 million in general liability insurance and is WSIB insured and in good standing. Certificates are available on request before work begins.",
+        "question": "Are you insured?"
+      },
+      {
+        "answer": "We’re available Monday through Saturday, from 9 AM to 7 PM. Call (647) 865-8009 to get started.",
+        "question": "When can I reach you?"
+      }
+    ],
+    "title": "Everything you need to know"
+  },
+  "footer": {
+    "blurb": "Craftsmanship-led construction and renovation with a focus on quality, communication and lasting results."
+  },
+  "hero": {
+    "backgroundImage": "",
+    "emphasis": "exceptional.",
+    "eyebrow": "General contractor · GTA & Ontario",
+    "lead": "RMGC Construction Inc. brings a craftsmanship-first approach to renovations, custom builds and detailed finish work—turning plans into spaces that feel considered from every angle. - Quality craftsmanship, honest communication, and exceptional results.",
+    "title": "Built to feel "
+  },
+  "projects": [
+    {
+      "category": "residential",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903155607_99_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_100_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_102_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903161756_193_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903161756_195_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_98_2.jpg",
+          "imageAlt": "Before renovation with flooring protection"
+        }
+      ],
+      "image": "/assets/uploads/图片_20260903155607_99_2.jpg",
+      "imageAlt": "Renovated kitchen with cream shaker cabinets, quartz countertops and brass hardware",
+      "location": "North York · Quartz counters, shaker cabinetry & brass hardware",
+      "title": "Full Kitchen Renovation"
+    },
+    {
+      "category": "commercial",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903155607_76_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_75_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_78_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_77_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_80_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_79_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_73_2.jpg"
+        }
+      ],
+      "image": "assets/img/studio-cyclorama.jpg",
+      "imageAlt": "Photography studio build-out with large white cyclorama, wainscotting wall and black wood slat accent wall",
+      "location": "Toronto · Cyclorama, wainscotting & slat walls",
+      "title": "Photography Studio Build-Out"
+    },
+    {
+      "category": "residential",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903160316_152_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_151_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_153_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_154_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_150_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_149_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_155_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/fb3fa97fed6043974abdae286be074b1.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_148_2.jpg",
+          "imageAlt": "Renovation Protection "
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_147_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/0c2244ea8339c105d98412fa807b6cdb.jpg",
+          "imageAlt": "24 hours waterproof test"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_139_2.jpg",
+          "imageAlt": "Before Renovations"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_140_2.jpg",
+          "imageAlt": "Before Renovations"
+        }
+      ],
+      "image": "assets/img/bath-black-shower.jpg",
+      "imageAlt": "Renovated bathroom with black-framed glass shower and grey marble-look tile",
+      "location": "Newmarket · Black-trim glass shower & porcelain tile",
+      "title": "Full Bathroom Renovation"
+    },
+    {
+      "category": "residential",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903160316_129_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_124_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_128_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_123_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_121_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_119_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_127_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_96_2.jpg",
+          "imageAlt": "Before"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_93_2.jpg",
+          "imageAlt": "Before"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_95_2.jpg",
+          "imageAlt": "Before"
+        }
+      ],
+      "image": "/assets/uploads/图片_20260903160316_129_2.jpg",
+      "imageAlt": "Renovated condo kitchen with quartz island, wood cabinetry and pot lights",
+      "location": "Toronto · Quartz island, flooring, remove popcorn ceiling, new wall paint, pot lights",
+      "title": "Condo Renovation"
+    },
+    {
+      "category": "residential",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903160316_179_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_183_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_189_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_182_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_181_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_184_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_188_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_186_2.jpg",
+          "imageAlt": "No trim between tile and wood floor"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_175_2.jpg",
+          "imageAlt": "24hrs water test"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_176_2.jpg",
+          "imageAlt": "schluter waterproofing system"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_178_2.jpg",
+          "imageAlt": "schluter waterproofing system"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_173_2.jpg",
+          "imageAlt": "Before"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_172_2.jpg",
+          "imageAlt": "Before"
+        }
+      ],
+      "image": "/assets/uploads/图片_20260903160316_179_2.jpg",
+      "imageAlt": "Second angle of renovated bathroom with black-framed shower, new vanity and marble-look floor",
+      "location": "Markham · 4 pcs Bathroom renovation",
+      "title": "Ensuite Bath Renovation"
+    },
+    {
+      "category": "commercial",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903160316_160_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_159_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_158_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_156_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_161_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_170_2.jpg",
+          "imageAlt": "3D design"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_171_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_138_2.jpg",
+          "imageAlt": "Before"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_137_2.jpg"
+        }
+      ],
+      "image": "/assets/uploads/图片_20260903160316_160_2.jpg",
+      "imageAlt": "",
+      "location": "Scarborough · New dance flooring, Paint ceiling&wall, install mirror, add more lighting, remove office wall and washroom renew etc",
+      "title": "Dance Studio "
+    },
+    {
+      "category": "commercial",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903160316_135_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_134_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_133_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_136_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_132_2.jpg",
+          "imageAlt": "Before"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_131_2.jpg",
+          "imageAlt": "Before"
+        }
+      ],
+      "image": "/assets/uploads/图片_20260903160316_135_2.jpg",
+      "imageAlt": "",
+      "location": "Toronto - Finish in 24 hours (Paint ceiling and remove wall )",
+      "title": "Cafe Shop"
+    },
+    {
+      "category": "commercial",
+      "gallery": [
+        {
+          "image": "/assets/uploads/图片_20260903160316_115_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_112_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903160316_113_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_110_2.jpg"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_108_2.jpg",
+          "imageAlt": "Before"
+        },
+        {
+          "image": "/assets/uploads/图片_20260903155607_107_2.jpg"
+        }
+      ],
+      "image": "/assets/uploads/图片_20260903160316_115_2.jpg",
+      "location": "North York - Build the photo wall",
+      "title": "Photography studio"
+    }
+  ],
+  "projectsSection": {
+    "emphasis": "define our style",
+    "eyebrow": "Selected work",
+    "lead": "A selection of the homes and spaces we've transformed across the GTA.",
+    "title": "Projects that"
+  },
+  "services": [
+    {
+      "bullets": [
+        "Kitchen & bathroom renovations",
+        "Open-concept spaces — remove load-bearing walls to make your space feel bigger",
+        "Basements — finishing, egress, in-law & rental suites",
+        "Condo renovations & pre-sale upgrades",
+        "Flooring, painting, trim & feature walls"
+      ],
+      "buttonLabel": "Get a renovation quote",
+      "category": "01 · Residential",
+      "description": "Kitchens, bathrooms, basements, condos and full-home renovations. We coordinate every trade and protect your home from demolition day to final walkthrough.",
+      "image": "/assets/uploads/service-residential.jpg",
+      "imageAlt": "Bright renovated kitchen with a large island",
+      "title": "Home Renovations"
+    },
+    {
+      "bullets": [
+        "Office & workspace build-outs",
+        "Retail and showroom fit-outs",
+        "Studios & specialty spaces — cycloramas, acoustic walls",
+        "Commercial washrooms & plumbing rough-in",
+        "Turnkey project management & trade coordination"
+      ],
+      "buttonLabel": "Discuss a commercial build",
+      "category": "02 · Commercial",
+      "description": "Build-outs and renovations for offices, studios, retail and hospitality spaces. We work to your drawings and your opening date, coordinate trades, and keep the site clean and code-compliant.",
+      "image": "/assets/uploads/service-commercial.jpg",
+      "imageAlt": "Modern commercial office space with a long conference table",
+      "title": "Commercial Projects"
+    }
+  ],
+  "servicesSection": {
+    "emphasis": "define our craft",
+    "eyebrow": "What we do",
+    "lead": "Residential renovations and commercial projects, planned properly and finished with care.",
+    "title": "Two disciplines that"
+  }
+}
