@@ -13,6 +13,18 @@
   </head>
   <body>
     <noscript>This editor needs JavaScript enabled.</noscript>
+    <script>
+      // Decap CMS uses hash routes (e.g. "#/collections/website"). Some embedding
+      // environments pass location.hash straight to querySelector for anchor
+      // scrolling, which throws on these routes. Treat them as "no match".
+      (function () {
+        var original = Document.prototype.querySelector;
+        Document.prototype.querySelector = function (selector) {
+          if (typeof selector === "string" && selector.indexOf("#/") === 0) return null;
+          return original.call(this, selector);
+        };
+      })();
+    </script>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
