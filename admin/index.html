@@ -19,10 +19,18 @@
       // scrolling, which throws on these routes. Treat them as "no match".
       (function () {
         var original = Document.prototype.querySelector;
-        Document.prototype.querySelector = function (selector) {
-          if (typeof selector === "string" && selector.indexOf("#/") === 0) return null;
+        function safeQuerySelector(selector) {
+          if (typeof selector === "string" && selector.charAt(0) === "#") {
+            try {
+              return original.call(this, selector);
+            } catch (error) {
+              return null;
+            }
+          }
           return original.call(this, selector);
-        };
+        }
+        Document.prototype.querySelector = safeQuerySelector;
+        document.querySelector = safeQuerySelector;
       })();
     </script>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
